@@ -1,0 +1,27 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Leaflet Map</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<!-- <ion-list>
+  <ion-item>
+    <ion-select
+      interface="popover"
+      [(ngModel)]="selectedBasemap"
+      (ionChange)="changeBasemap()"
+      placeholder="Choose Basemap"
+    >
+      <ion-select-option value="streets">Streets</ion-select-option>
+      <ion-select-option value="terrain">Terrain</ion-select-option>
+      <ion-select-option value="satellite">Satellite</ion-select-option>
+      <ion-select-option value="topo-vector">Topo Vector</ion-select-option>
+      <ion-select-option value="gray-vector">Gray Vector</ion-select-option>
+    </ion-select>
+  </ion-item>
+</ion-list> -->
+
+<ion-content [fullscreen]="true">
+  <div id="mapId" style="height: 100%; width: 100%"></div>
+</ion-content>
+
